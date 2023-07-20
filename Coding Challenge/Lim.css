@@ -1,0 +1,65 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+
+}
+/* Nello "sfondo" ci sono tutte le caratteristiche per creare lo sfondo trasparente dietro al testo */
+.sfondo {
+  background-image: url(https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  margin-left: 18%;
+  margin-right: 20%;
+  margin-bottom: 10%;
+  margin-top: 1%;
+  height: 700px;
+  border-radius: 2%;
+}
+/* Qui sotto le caratteristiche per posizionare il logo correttamente */
+.logo{
+  height: 100px;
+  margin-left: 35%;
+  padding-top: 8%;
+}
+/* Di seguito tutte le informazioni per scrivere correttamente il testo */
+.heading-text{
+  font-size: 25px;
+  color: lime;
+  width: 400px;
+  margin: auto;
+}
+/* I vari bottoni e le loro caratteristiche */
+.heading-button{
+  background-color: lime;
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  padding: 1%;
+  height: 20px;
+}
+/* Ho voluto racchiudere tutti e tre i monopattini in un'unica classe in quanto la struttura era molto simile */
+.main{
+  width: 840px;
+  margin: auto;
+  color: white;
+  padding: 1%;
+}
+/* Di seguito i cambiamenti per indicare carica della batteria di ogni monopattino */
+.orange{
+  border-radius: 5%;
+  height: 20px;
+  width: 280px;
+}
+
+.green{
+  border-radius: 5%;
+  height: 20px;
+  width: 500px;
+}
+
+.red{
+  border-radius: 5%;
+  height: 20px;
+  width: 100px;
+}
